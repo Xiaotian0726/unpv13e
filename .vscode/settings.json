@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "unp.h": "c",
+        "errno.h": "c",
+        "inet.h": "c",
+        "sctp.h": "c",
+        "time.h": "c"
+    }
+}
