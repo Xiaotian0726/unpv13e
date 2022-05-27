@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/hxt/unpv13e'
+echo "Nothing to make in this directory"
+echo "Please read the README file"
+make: Leaving directory '/home/hxt/unpv13e'
+ 

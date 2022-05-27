@@ -68,7 +68,7 @@ main(int argc, char **argv)
 				continue;
 			if (FD_ISSET(sockfd, &rset)) {
 				if ( (n = Read(sockfd, buf, MAXLINE)) == 0) {
-						/*4connection closed by client */
+						/* connection closed by client */
 					Close(sockfd);
 					FD_CLR(sockfd, &allset);
 					client[i] = -1;

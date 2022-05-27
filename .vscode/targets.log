@@ -1,0 +1,317 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+ 
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri May 27 21:11:29 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/hxt/.vscode-server
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Make.defines', line 19)
+LIBUNP_NAME = ../libunp.a
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.1
+# makefile
+CURDIR := /home/hxt/unpv13e
+# makefile
+SHELL = /bin/sh
+# environment
+JRE_HOME = /usr/lib/jvm/jdk1.8.0_311/jre
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/home/hxt/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/home/hxt/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/home/hxt/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"/home/hxt/.vscode-server/data/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+ 
+_ = /home/hxt/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/node
+# makefile (from 'Make.defines', line 12)
+CFLAGS = -I../lib -g -O2 -D_REENTRANT -Wall
+# makefile (from 'Make.defines', line 38)
+LIBXTI_OBJS = wrapxti.o xti_accept.o xti_flags_str.o xti_getopt.o xti_ntop.o xti_ntop_host.o xti_rdwr.o xti_setopt.o xti_str_opts.o xti_tlook_str.o
+# environment
+HADOOP_HDFS_HOME = /home/hxt/hadoop-3.3.1
+# makefile (from 'Make.defines', line 1)
+MAKEFILE_LIST :=  Makefile Make.defines
+# makefile (from 'Make.defines', line 32)
+LIBGAI_OBJS = 
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+ 
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1008/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+HADOOP_COMMON_HOME = /home/hxt/hadoop-3.3.1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/hxt
+# environment
+SSH_CONNECTION = 114.212.81.203 55086 114.212.85.121 22
+# environment
+PATH = /home/hxt/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/home/hxt/.local/bin:/home/hxt/cmake-3.14.5-Linux-x86_64/bin:.:/usr/lib/jvm/jdk1.8.0_311/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/hxt/hadoop-3.3.1/sbin:/home/hxt/hadoop-3.3.1/bin
+# makefile (from 'Make.defines', line 26)
+LIB_OBJS = connect_nonb.o connect_timeo.o daemon_inetd.o daemon_init.o dg_cli.o dg_echo.o error.o get_ifi_info.o gf_time.o host_serv.o family_to_level.o mcast_leave.o mcast_join.o mcast_get_if.o mcast_get_loop.o mcast_get_ttl.o mcast_set_if.o mcast_set_loop.o mcast_set_ttl.o my_addrs.o read_fd.o readline.o readn.o readable_timeo.o rtt.o signal.o signal_intr.o sock_bind_wild.o sock_cmp_addr.o sock_cmp_port.o sock_ntop.o sock_ntop_host.o sock_get_port.o sock_set_addr.o sock_set_port.o sock_set_wild.o sockfd_to_family.o str_cli.o str_echo.o tcp_connect.o tcp_listen.o tv_sub.o udp_client.o udp_connect.o udp_server.o wraplib.o wrapsock.o wrapstdio.o wrappthread.o wrapunix.o write_fd.o writen.o writable_timeo.o
+# environment
+ 
+XDG_RUNTIME_DIR = /run/user/1008
+# environment
+HADOOP_OPTS =  -Djava.library.path=/home/hxt/hadoop-3.3.1/lib/native
+# environment
+GOPATH = /home/hxt/NJU-DisSys-2017
+# environment
+VSCODE_LOG_STACK = false
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# makefile (from 'Make.defines', line 29)
+LIBFREE_OBJS = in_cksum.o inet_ntop.o inet_pton.o
+# makefile (from 'Make.defines', line 40)
+CLEANFILES = core core.* *.core *.o temp.* *.out typescript* *.lc *.lh *.bsdi *.sparc *.uw
+ 
+# automatic
+%F = $(notdir $%)
+# environment
+HADOOP_YARN_HOME = /home/hxt/hadoop-3.3.1
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'Make.defines', line 23)
+LIBUNPXTI_NAME = ../libunpxti.a
+# environment
+PWD = /home/hxt/unpv13e
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1008/vscode-ipc-c83f5c42-3a87-4836-b565-69a2ec417c42.sock
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+HADOOP_HOME = /home/hxt/hadoop-3.3.1
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/hxt
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = hxt
+# environment
+ 
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Make.defines', line 15)
+RANLIB = ranlib
+# automatic
++F = $(notdir $+)
+# environment
+HADOOP_COMMON_LIB_NATIVE_DIR = /home/hxt/hadoop-3.3.1/lib/native
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# makefile (from 'Make.defines', line 11)
+CC = gcc
+# environment
+JAVA_HOME = /usr/lib/jvm/jdk1.8.0_311
+# environment
+HADOOP_CLASSPATH = /home/hxt/hadoop-3.3.1/etc/hadoop:/home/hxt/hadoop-3.3.1/share/hadoop/common/lib/*:/home/hxt/hadoop-3.3.1/share/hadoop/common/*:/home/hxt/hadoop-3.3.1/share/hadoop/hdfs:/home/hxt/hadoop-3.3.1/share/hadoop/hdfs/lib/*:/home/hxt/hadoop-3.3.1/share/hadoop/hdfs/*:/home/hxt/hadoop-3.3.1/share/hadoop/mapreduce/*:/home/hxt/hadoop-3.3.1/share/hadoop/yarn:/home/hxt/hadoop-3.3.1/share/hadoop/yarn/lib/*:/home/hxt/hadoop-3.3.1/share/hadoop/yarn/*:/home/hxt/hadoop-3.3.1/share/hadoop/tools/lib/hadoop-datajoin-3.3.1.jar
+# environment
+XDG_SESSION_ID = 1464
+# environment
+USER = hxt
+# makefile
+.DEFAULT_GOAL := all
+# environment
+HADOOP_MAPRED_HOME = /home/hxt/hadoop-3.3.1
+# environment
+CLASSPATH = .:/usr/lib/jvm/jdk1.8.0_311/lib:/usr/lib/jvm/jdk1.8.0_311/jre/lib:/home/hxt/hadoop-3.3.1/share/hadoop/tools/lib/hadoop-datajoin-3.3.1.jar
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN:zh
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 114.212.81.203 55086 22
+# environment
+MAIL = /var/mail/hxt
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/hxt/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ 
+PS1 = [\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]]$ 
+# environment
+LC_ALL = C
+# makefile (from 'Make.defines', line 13)
+LIBS = ../libunp.a -lpthread
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from 'Make.defines', line 35)
+LIBROUTE_OBJS = get_rtaddrs.o if_indextoname.o if_nameindex.o if_nametoindex.o net_rt_iflist.o net_rt_dump.o sock_masktop.o
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# makefile (from 'Make.defines', line 14)
+LIBS_XTI = ../libunpxti.a ../libunp.a -lpthread
+# variable set hash-table stats:
+ 
+# Load=94/1024=9%, Rehash=0, Collisions=8/124=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 57413094): 61 files, no impossibilities.
+
+# 61 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 4):
+	@echo "Nothing to make in this directory"
+	@echo "Please read the README file"
+
+distclean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	rm -f $(CLEANFILES) config.cache config.log config.status config.h Make.defines Makefile
+ 
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-26 00:07:21.10961409
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+	rm -f $(CLEANFILES)
+ 
+
+# Not a target:
+Make.defines:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-26 00:07:21.133614017
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/20=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+ 
+
+# strcache buffers: 1 (0) / strings = 68 / storage = 580 B / avg = 8 B
+# current buf: size = 8162 B / used = 580 B / count = 68 / avg = 8 B
+
+# strcache performance: lookups = 79 / hit rate = 13%
+# hash-table stats:
+# Load=68/8192=1%, Rehash=0, Collisions=1/79=1%
+ 
+# Finished Make data base on Fri May 27 21:11:29 2022
+
+ 
